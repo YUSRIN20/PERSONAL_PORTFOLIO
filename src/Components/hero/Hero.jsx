@@ -55,7 +55,7 @@ const Hero = () => {
                                 download
                                 target="_blank"
                                 rel="noreferrer"
-                                href="/Misfer Yusrin-Resume.pdf"
+                                href="/Misfer Yusrin_Resume.pdf"
                             >
                                My Resume
                                 <span style={{marginLeft:"5px"}}>
