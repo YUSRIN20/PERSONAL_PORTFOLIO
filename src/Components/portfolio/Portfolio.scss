@@ -126,6 +126,10 @@
                         font-size: 15px;
                    }
                 }
+                .buttons{
+                    display: flex;
+                    gap: 25px;
+                }
 
                 button {
                     background-color: orange;
