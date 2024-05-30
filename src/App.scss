@@ -1,0 +1,54 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'DM Sans',sans-serif ;
+}
+body{
+    background-color: #0c0c1d;
+    color: lightgrey;
+}
+a{
+    text-decoration: none;
+    color: inherit; //taking color from parent
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+
+@mixin mobile {
+    @media (max-width:738px){
+        @content;
+    scroll-snap-align: none;
+    }
+}
+
+@mixin tablet {
+    @media (max-width:768px){
+        @content;
+    }
+}
+ 
+@mixin laptop {
+    @media (max-width:1024px){
+        @content;
+    }
+}
+@mixin mediumlaptop {
+    @media (max-width:1400px){
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (max-width:1500px){
+        @content;
+    }
+}
