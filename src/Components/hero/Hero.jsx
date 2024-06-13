@@ -52,7 +52,6 @@ const Hero = () => {
                         <motion.button variants={textVariants}>
                             <a
                                 className="d-inline group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500  to-blue-500 cursor-pointer"
-                                download
                                 target="_blank"
                                 rel="noreferrer"
                                 href="/Misfer Yusrin_Resume.pdf"
