@@ -30,16 +30,17 @@ const items = [
         img: "BulkEmailTool.png",
         desc: "The Bulk Email Tool project comprises frontend and backend components for efficient email management. The frontend, built with React.js, handles user authentication, email composition, and analytics display. The backend, developed with Node.js, Express, and MongoDB, manages user registration, authentication, email sending, and analytics retrieval. With features like user-friendly interfaces, email composition, and analytics tracking, it provides a comprehensive solution for email management needs."
     },
-    // {
-    //     id: 3,
-    //     title: "URL-Shortener Tool",
-    //     img: "url-shortener.png",
-    //     demoLink:"https://url-shortener-web-demo.netlify.app/",
-    //     desc: "This URL shortener tool offers users a seamless experience for generating shortened URLs from long ones with admin dashboard. Its robust backend, built with Node.js, Express.js, and MongoDB, ensures secure authentication, URL shortening, and analytics. The React.js frontend provides an intuitive interface. Deployed on Render (backend) and Netlify (frontend), it showcases proficiency in full-stack web development, emphasizing security, functionality, and user experience."
-    // },
+    {
+        id: 3,
+        title: "URL-Shortener Tool",
+        img: "url-shortener.png",
+        demoLink:"https://url-shortener-web-demo.netlify.app/",
+        gitLink:"https://github.com/YUSRIN20/URL-Shortener-Frontend.git",
+        desc: "This URL shortener tool offers users a seamless experience for generating shortened URLs from long ones with admin dashboard. Its robust backend, built with Node.js, Express.js, and MongoDB, ensures secure authentication, URL shortening, and analytics. The React.js frontend provides an intuitive interface. Deployed on Render (backend) and Netlify (frontend), it showcases proficiency in full-stack web development, emphasizing security, functionality, and user experience."
+    },
     {
         id: 4,
-        title: "Login Management Web Application",
+        title: "Authentication Web Application",
         demoLink: 'https://password-reset-demo.netlify.app/',
         gitLink:"https://github.com/YUSRIN20/Password-Reset-Task-FrontEnd.git",
         img: "./PasswordReset.png",
